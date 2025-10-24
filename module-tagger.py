@@ -258,7 +258,7 @@ def main():
         print("Usage: python module_tagger.py <modules_directory>")
         print("\nAdds content type metadata to AsciiDoc module files.")
         print("The script will process all .adoc files in the given directory")
-        print(" that don't already have :_mod-docs-content-type: metadata.")
+        print("that don't already have :_mod-docs-content-type: metadata.")
         sys.exit(1)
 
     directory = sys.argv[1]
